@@ -1,11 +1,11 @@
 import React from 'react'
-
+import "./Intro.scss";
 const Intro = () => {
   return (
-    <div className="into-container">
-    <div className="into-content">
-      <div className="into-content__intro"></div>
-      <div className="into-content__image-container"></div>
+    <div className="intro-container">
+    <div className="intro-content">
+      <div className="intro-content__intro"></div>
+      <div className="intro-content__image-container"></div>
     </div>
   </div>  )
 }

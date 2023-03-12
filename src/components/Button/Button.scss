@@ -4,10 +4,10 @@
 //projectpreview
 
 .button{
-    width:6vw;
+    width:15vw;
     height:3vh;
     font-family: 'Courier New', Courier, monospace;
-    font-size:2rem;
+    font-size:0.4rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,13 +17,14 @@
 .hasBorder{
     border: 2px solid black;
     border-radius: 7px;
+    font-weight: bold;
 }
 
 .projectCode{
     width:8vw;
     height:4vh;
     // background-color: ;
-    font-size: 3rem;
+    font-size: 1rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: 2px solid black;
     border-radius: 7px;
@@ -33,7 +34,7 @@
     width:12vw;
     height:4vh;
     // background-color: ;
-    font-size: 3rem;
+    font-size: 1rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: 2px solid black;
     border-radius: 7px;

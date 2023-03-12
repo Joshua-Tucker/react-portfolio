@@ -1,0 +1,14 @@
+.header-container{
+    height:10vh;
+}
+
+.header-content{
+    display: flex;
+    flex-direction: row;
+
+    &__button-container{
+        display: flex;
+        flex-direction: row;
+    
+    }
+}

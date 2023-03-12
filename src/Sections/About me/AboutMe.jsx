@@ -1,4 +1,5 @@
 import React from 'react'
+import "./AboutMe.scss"
 
 const AboutMe = () => {
   return (
