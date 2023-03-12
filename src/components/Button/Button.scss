@@ -1,0 +1,40 @@
+//headerbutton
+//headerbuttonborder
+//projectcode
+//projectpreview
+
+.button{
+    width:6vw;
+    height:3vh;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // background-color: ;
+}
+
+.hasBorder{
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+.projectCode{
+    width:8vw;
+    height:4vh;
+    // background-color: ;
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+.projectPreview{
+    width:12vw;
+    height:4vh;
+    // background-color: ;
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid black;
+    border-radius: 7px;
+}
