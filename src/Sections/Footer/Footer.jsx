@@ -11,7 +11,9 @@ const Footer = () => {
         <div className="footer-content__return">
           <p>Return to top</p>
         </div>
-        <div className="footer-content__socials-container"></div>
+        <div className="footer-content__socials-container">
+          INSTA / CV / LINKED IN
+        </div>
       </div>
     </div>  )
 }

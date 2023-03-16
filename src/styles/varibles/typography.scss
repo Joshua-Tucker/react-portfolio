@@ -1,0 +1,63 @@
+@use "../varibles/abstracts.scss" as *;
+@use "../varibles/typography.scss" as *;
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;600&display=swap');
+
+$font: "Inter", sans-serif;
+$lineheight: 1.8rem;
+$font-title-desktop: 3rem;
+$font-large-header: 2rem;
+$font-medium-header: 1.5rem;
+$font-text: 1.125rem;
+$font-text-small: 1rem;
+$font-text-smallest: 0.8rem;
+
+* {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    Arial, sans-serif;
+    color: $color-dark-grey;
+  }
+  
+  h1,
+  h2,
+  h3,
+  p {
+    margin: 0.5rem 0;
+    display: inline-block;
+    width: 100%;
+  }
+  
+  button {
+    font-size: $font-text-small;
+  }
+  
+  h1 {
+    font-size: $font-large-header;
+  }
+  
+  h2 {
+    font-size: $font-medium-header;
+  }
+  
+  h3 {
+    font-size:$font-text;
+  }
+  p {
+    font-size: $font-text-smallest;
+  }
+  
+
+
+@media screen and (min-width: $tablet-breakpoint) {
+    :root {
+      font-size: 110%;
+    }
+  }
+  
+  @media screen and (min-width: $desktop-breakpoint) {
+    :root {
+      font-size: 120%;
+    }
+  }

@@ -1,5 +1,6 @@
 import React from "react";
 import "./AboutMe.scss";
+import profilePicture from "../../styles/assets/images/Profile.png";
 
 const AboutMe = () => {
   return (
@@ -34,7 +35,9 @@ const AboutMe = () => {
             </p>
           </div>
         </div>
-        <div className="about-content__image-container"></div>
+        <div className="about-content__image-container">
+          <img src={profilePicture} alt="Photo of me"/>
+        </div>
       </div>
     </div>
   );

@@ -1,5 +1,7 @@
 import React from "react";
 import "./Intro.scss";
+import introPicture from "../../styles/assets/images/Picture.png"
+
 const Intro = () => {
   return (
     <div className="intro-container">
@@ -12,7 +14,9 @@ const Intro = () => {
         <div className="intro-content__intro">
           <h1> A Junior Software Developer based in the U.K.</h1>
         </div>
-        <div className="intro-content__image-container"></div>
+        <div className="intro-content__image-container">
+          <img src={introPicture} alt="Intro Picture" />
+        </div>
       </div>
     </div>
   );

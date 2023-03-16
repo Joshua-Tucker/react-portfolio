@@ -1,3 +1,8 @@
+// @use "../varibles/abstracts.scss" as *;
+// @use "../varibles/typography.scss" as *;
+
+
 .app{
-    height: 100vh;
+    min-height: 100vh;
+    height:auto;
 }

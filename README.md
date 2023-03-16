@@ -7,3 +7,9 @@ Initial planning:-
 -Look into some cool examples that you can add
 -Focus on getting the content on the page 
 -Then add styling
+
+Cool things to add:-
+-Light/Dark mode
+-Return to top of site
+-Links to pages with projects with a fuller decription of my process(?)
+-Animations of button clicks
