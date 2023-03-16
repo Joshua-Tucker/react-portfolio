@@ -1,6 +1,5 @@
-@use "../varibles/abstracts.scss" as *;
-@use "../varibles/typography.scss" as *;
 
+@use "./abstracts.scss" as *;
 
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;600&display=swap');
@@ -17,7 +16,7 @@ $font-text-smallest: 0.8rem;
 * {
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     Arial, sans-serif;
-    color: $color-dark-grey;
+    color:$color-black;
   }
   
   h1,

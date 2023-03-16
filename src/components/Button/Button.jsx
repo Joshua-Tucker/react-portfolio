@@ -8,7 +8,7 @@ const Button = ({text, buttonStyle}) => {
 
   return (
     <div className={buttonName}>
-        <h1 className='button-text'>{text}</h1>
+        <h2 className='button-text'>{text}</h2>
     </div>
   )
 }

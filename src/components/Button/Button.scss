@@ -1,16 +1,16 @@
-//headerbutton
-//headerbuttonborder
-//projectcode
-//projectpreview
+
+@use "../../styles/varibles/typography.scss" as *;
+@use "../../styles/varibles/abstracts.scss" as *;
 
 .button{
     width:15vw;
     height:3vh;
     font-family: 'Courier New', Courier, monospace;
-    font-size:0.4rem;
+    font-size:$font-text-smallest;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     // background-color: ;
 }
 
@@ -21,21 +21,24 @@
 }
 
 .projectCode{
-    width:8vw;
-    height:4vh;
+    width:24vw;
+    height:8vh;
     // background-color: ;
-    font-size: 1rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    // font-size: 1rem;
+    // font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: 2px solid black;
     border-radius: 7px;
+    margin:1vh 5vw;
 }
 
 .projectPreview{
-    width:12vw;
-    height:4vh;
+    width:28vw;
+    height:8vh;
     // background-color: ;
-    font-size: 1rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    // font-size: 1rem;
+    // font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: 2px solid black;
     border-radius: 7px;
+    margin:1vh 5vw;
+
 }

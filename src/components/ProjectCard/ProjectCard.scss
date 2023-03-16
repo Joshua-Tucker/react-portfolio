@@ -1,35 +1,86 @@
+@use "../../styles/varibles/typography.scss" as *;
+@use "../../styles/varibles/abstracts.scss" as *;
+
 .projectCard {
-  height: 30vh;
+  min-height:80vh;
+  height: auto;
+  background-color: $background-color;
+  margin: 10vh 0vw;
+  width: 80%;
+  padding:2vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 2px solid $color-dark-grey;
 
   &__image-container {
-    height: 15vh;
-    &__image {
-        height:100%;
-        width:auto;
-    }
+    height: 40vh;
+    width:auto;
   }
-  &__content-container {
-    &__content-language-container {
-      &__content-language {
-      }
-    }
-    &__content-title-container {
-      &__content-language {
-      }
-    }
-    &__content-title-container {
-      &__content-title {
-      }
-    }
-    &__content-info-container {
-      &__content-info {
-      }
-    }
-    &__button-container{
+  &__image {
+    height: 100%;
+    width: auto;
+  }
+//   &__content-container {
 
-    }
-  }
+//   }
+//   &__content-language-container {
+  
+//   }
+//   &__content-language {
+//   }
+//   &__content-title-container {
+   
+//   }
+//   &__content-language {
+//   }
+
+//   &__content-title-container {
+    
+//   }
+//   &__content-title {
+//   }
+
+//   &__content-info-container {
+ 
+//   }
+//   &__content-info {
+//   }
+
+&__button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
 }
-.projectCard2{
-    height: 30vh;
+}
+
+.projectCard2 {
+  min-height:80vh;
+  height: auto;
+  background-color: $background-color;
+  margin: 10vh 0vw;
+  width: 80%;
+  padding:2vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 2px solid $color-dark-grey;
+
+  &__image-container {
+    height: 40vh;
+    width:auto;
+  }
+  &__image {
+    height: 100%;
+    width: auto;
+  }
+  &__button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
 }

@@ -10,7 +10,7 @@ const ProjectCard = ({ type, info, title, language, image, image2 }) => {
       </div>
       <div className="projectCard__content-container">
         <div className="projectCard__content-language-container">
-          <h2 className="projectCard__content-language">{language}</h2>
+          <h3 className="projectCard__content-language">{language}</h3>
         </div>
         <div className="projectCard__content-title-container">
           <h1 className="projectCard__content-title">{title}</h1>
@@ -34,7 +34,7 @@ const ProjectCard = ({ type, info, title, language, image, image2 }) => {
       </div>
       <div className="projectCard__content-container">
         <div className="projectCard__content-language-container">
-          <h2 className="projectCard__content-language">{language}</h2>
+          <h3 className="projectCard__content-language">{language}</h3>
         </div>
         <div className="projectCard__content-title-container">
           <h1 className="projectCard__content-title">{title}</h1>

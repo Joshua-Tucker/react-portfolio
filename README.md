@@ -13,3 +13,9 @@ Cool things to add:-
 -Return to top of site
 -Links to pages with projects with a fuller decription of my process(?)
 -Animations of button clicks
+
+
+
+
+Styling notes:-
+-Re-upload screenshots but make them all the same size so I have a constant within the cards

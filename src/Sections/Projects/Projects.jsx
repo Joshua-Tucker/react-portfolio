@@ -45,6 +45,8 @@ const Projects = () => {
             info={
               "This was my first introduction to a real-life coding working enviroment. We were peer-programming our way though tickets to deliver this impressive site in a small frame of time."
             }
+            image={punkImg}
+
           />
           {/* <ProjectCard />
           <ProjectCard /> */}

@@ -1,3 +1,20 @@
-.about-container{
-    height:20vh;
+.about-container {
+  height: 80vh;
+}
+.about-content {
+//   &__title-container {
+//   }
+//   &__title {
+//   }
+
+//   &__text-container {
+//   }
+//   &__text {
+//   }
+  &__image-container {
+    height:40vh;
+  }
+  &__image {
+    height:100%;
+  }
 }

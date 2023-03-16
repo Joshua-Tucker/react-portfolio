@@ -1,3 +1,19 @@
-.intro-container{
-    height:20vh;
+.intro-container {
+  height: 50vh;
+}
+
+.intro-content {
+  &__title-container {
+  }
+  &__title {
+  }
+  &__intro-container {
+  }
+  &__intro {
+  }
+  &__image-container {
+    display:none;
+  }
+//   &__image {
+//   }
 }
