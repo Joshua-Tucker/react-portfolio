@@ -1,4 +1,35 @@
-.language-container{
-    height:80vh;
-    margin-top:40vh;
+@use "../../styles/varibles/abstracts.scss" as *;
+@use "../../styles/varibles/typography.scss" as *;
+
+
+.language-container {
+  margin-top: 10vh;
+  text-align: center;
+}
+.language-content {
+  display: flex;
+  flex-direction: column;
+
+//   &__text-container {
+//   }
+  &__title-container {
+    padding: 3vh;
+  }
+//   &__title {
+//   }
+  &__intro-container {
+    margin-bottom: 3vh;
+
+  }
+//   &__intro {
+//   }
+  &__image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  &__image {
+    padding:4vw;
+  }
 }

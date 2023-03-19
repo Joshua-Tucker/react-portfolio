@@ -3,8 +3,12 @@ import "./ProjectCard.scss";
 import Button from "../Button/Button";
 
 const ProjectCard = ({ type, info, title, language, image, image2 }) => {
+
+  let cardType = "projectCard";
+  cardType+= " "+type;
+
   const projectCardJSX = () => (
-    <div className="projectCard">
+    <div className={cardType}>
       <div className="projectCard__image-container">
         <img className="projectCard__image" src={image} alt={title} />
       </div>
@@ -27,7 +31,7 @@ const ProjectCard = ({ type, info, title, language, image, image2 }) => {
   );
 
   const projectCard2JSX = () => (
-    <div className="projectCard2">
+    <div className={cardType}>
       <div className="projectCard__image-container">
         <img className="projectCard__image" src={image} alt={title} />
         <img className="projectCard__image" src={image2} alt={title} />
@@ -51,9 +55,9 @@ const ProjectCard = ({ type, info, title, language, image, image2 }) => {
   );
   return (
     <>
-      {type === "projectCard"
+      {type === "one"
         ? projectCardJSX()
-        : type === "projectCard2"
+        : type === "two"
         ? projectCard2JSX()
         : alert("Unknown Project Card Type")}
     </>

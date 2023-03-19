@@ -1,4 +1,30 @@
+@use "../../styles/varibles/abstracts.scss" as *;
+@use "../../styles/varibles/typography.scss" as *;
+
+
 .project-container{
     min-height:200vh;
     height:auto;
+    
+}
+.project-content{
+    &__title-container{
+        text-align: center;
+        margin-top: 5vh;
+    }
+
+    &__title{
+        font-size: $font-title-desktop;
+
+    }
+
+    &__card-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
 }

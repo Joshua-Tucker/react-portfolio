@@ -31,10 +31,24 @@ const AboutMe = () => {
             well rounded with great communication and experienced to working in
             teams and being able to deliver projects to a high standard.
           </p>
+          <p className="about-content__text">
+            ​ I'm an ambitious individual who enjoys a challenge. I've had
+            experience with running a business and am currently a live-in
+            landlord so I’m experienced in communication, project management and
+            connecting with those I interact with.​ Due to finish the _nology
+            full stack course soon and have learnt a lot about myself and my
+            capabilities in this time. I find it amazing what we have learnt in
+            a short time and am incredibly excited to be a part of projects and
+            make a difference to people in the real world .
+          </p>
         </div>
       </div>
       <div className="about-content__image-container">
-        <img className="about-content__image" src={profilePicture} alt="Photo of me" />
+        <img
+          className="about-content__image"
+          src={profilePicture}
+          alt="Photo of me"
+        />
       </div>
     </div>
   );

@@ -2,81 +2,33 @@
 @use "../../styles/varibles/abstracts.scss" as *;
 
 .projectCard {
-  min-height:80vh;
+  min-height: 60vh;
   height: auto;
   background-color: $background-color;
-  margin: 10vh 0vw;
-  width: 80%;
-  padding:2vh;
+  margin: 5vh 0vw;
+  width: 85%;
+  padding: 2vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  border: 2px solid $color-dark-grey;
+  border: 1vh solid $color-dark-grey;
+  border-radius: 3vh;
 
   &__image-container {
-    height: 40vh;
-    width:auto;
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2vh;
   }
   &__image {
-    height: 100%;
+    height: 28vh;
     width: auto;
   }
-//   &__content-container {
 
-//   }
-//   &__content-language-container {
-  
-//   }
-//   &__content-language {
-//   }
-//   &__content-title-container {
-   
-//   }
-//   &__content-language {
-//   }
-
-//   &__content-title-container {
-    
-//   }
-//   &__content-title {
-//   }
-
-//   &__content-info-container {
- 
-//   }
-//   &__content-info {
-//   }
-
-&__button-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-}
-}
-
-.projectCard2 {
-  min-height:80vh;
-  height: auto;
-  background-color: $background-color;
-  margin: 10vh 0vw;
-  width: 80%;
-  padding:2vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  border: 2px solid $color-dark-grey;
-
-  &__image-container {
-    height: 40vh;
-    width:auto;
-  }
-  &__image {
-    height: 100%;
-    width: auto;
-  }
   &__button-container {
     display: flex;
     flex-direction: row;
@@ -84,3 +36,76 @@
     align-items: center;
   }
 }
+// .two{
+//   &__image-container {
+//     height: 40vh;
+//     width: auto;
+//     overflow: hidden;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//   }
+//   &__image {
+//     height: 80%;
+//     width: auto;
+//   }
+// }
+
+// .projectCard2 {
+//   min-height: 80vh;
+//   height: auto;
+//   background-color: $background-color;
+//   margin: 10vh 0vw;
+//   width: 85%;
+//   padding: 2vh;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-evenly;
+//   align-items: center;
+//   border: 1vh solid $color-dark-grey;
+//   border-radius: 3vh;
+//   &__image-container {
+//     height: 40vh;
+//     width: auto;
+//     overflow: hidden;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//   }
+//   &__image {
+//     height: 80%;
+//     width: auto;
+//   }
+//   &__button-container {
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: flex-start;
+//     align-items: center;
+//   }
+// }
+
+//   &__content-container {
+
+//   }
+//   &__content-language-container {
+
+//   }
+//   &__content-language {
+//   }
+//   &__content-title-container {
+
+//   }
+//   &__content-language {
+//   }
+
+//   &__content-title-container {
+
+//   }
+//   &__content-title {
+//   }
+
+//   &__content-info-container {
+
+//   }
+//   &__content-info {
+//   }

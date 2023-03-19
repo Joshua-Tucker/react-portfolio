@@ -10,10 +10,12 @@ const Projects = () => {
   return (
     <div className="project-container">
       <div className="project-content">
-        <div className="project-content__title"></div>
+        <div className="project-content__title-container">
+          <h1 className="project-content__title">My Projects</h1>
+        </div>
         <div className="project-content__card-container">
           <ProjectCard
-            type={"projectCard2"}
+            type={"two"}
             title={"Calculator"}
             language={"JavaScript"}
             info={
@@ -23,14 +25,14 @@ const Projects = () => {
             image2={calculatorLImg}
           />
           <ProjectCard
-            type={"projectCard"}
+            type={"one"}
             title={"Connect 4"}
             language={"JavaScript"}
             info={`This is my Game project. I decided to create Connect Four, if you fancy a game click "Preview". `}
             image={connect4Img}
           />
           <ProjectCard
-            type={"projectCard"}
+            type={"one"}
             title={"IPA Punk API"}
             language={"React"}
             info={
@@ -39,14 +41,13 @@ const Projects = () => {
             image={punkImg}
           />
           <ProjectCard
-            type={"projectCard"}
+            type={"one"}
             title={"Client Project"}
             language={"React"}
             info={
               "This was my first introduction to a real-life coding working enviroment. We were peer-programming our way though tickets to deliver this impressive site in a small frame of time."
             }
             image={punkImg}
-
           />
           {/* <ProjectCard />
           <ProjectCard /> */}

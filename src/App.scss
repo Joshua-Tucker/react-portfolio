@@ -3,6 +3,10 @@
 
 
 .app{
-    min-height: 100vh;
+    min-height: 400vh;
     height:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
