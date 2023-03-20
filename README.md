@@ -27,9 +27,9 @@ To do list:-
 -Add picture of me                              Done
 -Add description in about me                    Done
 -Condense about me                              Done
--Find portfolio to base upon                    45 mins
--Carosel on projects                            90 mins
--About me overlay and toggle functionality      90 mins
+-Find portfolio to base upon                    45 mins EXTEND
+-Carosel on projects                            90 mins EXTEND
+-About me overlay and toggle functionality      90 mins NEXT
 -Style properly for mobile                      120 mins
 -Style properly for tablet and above            90 mins
 -Add Settings icon and toggle functionality     90 mins
