@@ -2,7 +2,8 @@ import React from "react";
 import "./ProjectCard.scss";
 import Button from "../Button/Button";
 
-const ProjectCard = ({ type, info, title, language, image, image2, toggleProject }) => {
+const ProjectCard = ({ type, info, title, language, image, image2,
+}) => {
 
   let cardType = "projectCard";
   cardType+= " "+type;
