@@ -1,6 +1,11 @@
 @use "../../styles/varibles/abstracts.scss" as *;
 @use "../../styles/varibles/typography.scss" as *;
 
+
+
+.active{
+  opacity:20%
+  }
 .about-container {
   margin-top: 10vh;
   //   height: 60vh;

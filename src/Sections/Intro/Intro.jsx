@@ -1,30 +1,30 @@
 import React from "react";
 import "./Intro.scss";
-import introPicture from "../../styles/assets/images/Picture.png";
+import logo from "../../styles/assets/images/Logo.png";
+import MenuOptions from "../../components/MenuOptions/MenuOptions";
 
 const Intro = () => {
   return (
     <div className="intro-container">
       <div className="intro-content">
-        <div className="intro-content__title-container">
-          <h1 className="intro-content__title">Hi there!
-          </h1>
-          <h2 className="intro-content__title">
-            Hey there! My name's Josh Tucker. 
-          </h2>
-          <h3 className="intro-content__title">Welcome to my Coding Portfolio!!</h3>
-        </div>
-        <div className="intro-content__intro-container">
-          <h1 className="intro-content__intro">
-            A Junior Software Developer based in the U.K.
-          </h1>
-        </div>
         <div className="intro-content__image-container">
           <img
             className="intro-content__image"
-            src={introPicture}
+            src={logo}
             alt="Intro Picture"
           />
+        </div>
+        <div className="intro-content__intro-container">
+          <h1 className="intro-content__top">I'm Josh</h1>
+          <h2 className="intro-content__middle"> A Junior Software Engineer</h2>
+          <h3 className="intro-content__lower">
+            {" "}
+            Welcome to my Journey so far
+          </h3>
+        </div>
+
+        <div className="intro-content__menu">
+          <MenuOptions />
         </div>
       </div>
     </div>

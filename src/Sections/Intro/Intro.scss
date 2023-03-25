@@ -2,28 +2,53 @@
 @use "../../styles/varibles/typography.scss" as *;
 
 .intro-container {
-  // height: 80vh;
+  height: 100vh;
   text-align: center;
   margin-bottom: 5vh;
 }
 
 .intro-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+
   &__title-container {
   }
   &__title {
   }
   &__intro-container {
-    margin: 5vh 0vw;
+    margin-top: 20vh;
     background-color: $background-third;
     border: 1vh solid $color-light-grey;
     border-radius: 7px;
+    height:60vh;
+    position: relative;
+  z-index: 1;
+
   }
   &__intro {
     font-size: $font-title-desktop;
   }
   &__image-container {
-    display:none;
+    height:30vh;
+    width:30vh;
+    overflow:hidden;
+    position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 5;
+
+
   }
-//   &__image {
-//   }
+  &__image {
+    height:30vh;
+    border-radius: 50%;
+  }
+  &__menu{
+    background-color: $background-third;
+    border: 1vh solid $color-light-grey;
+    border-radius: 7px;
+  
+  }
 }
