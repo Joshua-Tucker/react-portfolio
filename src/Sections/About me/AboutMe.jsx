@@ -12,19 +12,24 @@ const AboutMe = () => {
   };
   return (
     <div className="about-container">
-      {showOverlay && (<Overlay handleClick={toggleOverlay}/>)}
-      <div className={
-            isActive
-              ? "about-content + active"
-              : "about-content"
-          }>
+      {showOverlay && <Overlay handleClick={toggleOverlay} />}
+      <div className={isActive ? "about-content + active" : "about-content"}>
         <div className="about-content__title-container">
           <h1 className="about-content__title">About me</h1>
         </div>
+        <div className="about-content__image-container">
+          <img
+            className="about-content__image"
+            src={profilePicture}
+            alt="Photo of me"
+          />{" "}
+        </div>
         <div className="about-content__text-container">
-          <p className="about-content__text">
+          <p className="about-content__text-upper">
             I’m choosing a career in Tech as this has been an industry that’s
             always sparked my curiosity but I always treated it as a daydream.
+            </p>
+            <p className="about-content__text-lower">
             The fact that its beginning to turn into reality is incredibly
             exciting. I’ve been fortunate enough to already have 1 successful
             career as a kitchen installer, which taught me many useful skills. I
@@ -34,13 +39,7 @@ const AboutMe = () => {
           </p>
         </div>
       </div>
-      <div className="about-content__image-container">
-        <img
-          className="about-content__image"
-          src={profilePicture}
-          alt="Photo of me"
-        />{" "}
-      </div>
+
       <div className="about-content__button">
         <Button
           text={"Read More ..."}
@@ -49,7 +48,6 @@ const AboutMe = () => {
         />
       </div>
     </div>
-    
   );
 };
 
