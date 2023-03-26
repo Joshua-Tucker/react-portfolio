@@ -9,11 +9,14 @@ const AboutMe = () => {
   const [isActive, setIsActive] = useState(false);
   const toggleOverlay = () => {
     setShowOverlay(!showOverlay);
+    setIsActive(!isActive);
   };
   return (
-    <div className="about-container">
-      {showOverlay && <Overlay handleClick={toggleOverlay} />}
-      <div className={isActive ? "about-content + active" : "about-content"}>
+    <>
+    {showOverlay && <Overlay handleClick={toggleOverlay} />}
+
+    <div className={isActive ? "about-container + active" : "about-container"}>
+      <div className="about-content">
         <div className="about-content__title-container">
           <h1 className="about-content__title">About me</h1>
         </div>
@@ -27,11 +30,11 @@ const AboutMe = () => {
         <div className="about-content__text-container">
           <p className="about-content__text-upper">
             I’m choosing a career in Tech as this has been an industry that’s
-            always sparked my curiosity but I always treated it as a daydream.
+            always sparked my curiosity, but I've always treated it as a daydream.
             </p>
             <p className="about-content__text-lower">
-            The fact that its beginning to turn into reality is incredibly
-            exciting. I’ve been fortunate enough to already have 1 successful
+            <span className="about-content__text-bold">The fact that its beginning to turn into reality is incredibly
+            exciting.</span><br/> <br></br>I’ve been fortunate enough to already have 1 successful
             career as a kitchen installer, which taught me many useful skills. I
             love a challenge and constantly push myself but more importantly, I
             want something that I can genuinely enjoy and help people on a
@@ -48,6 +51,7 @@ const AboutMe = () => {
         />
       </div>
     </div>
+    </>
   );
 };
 
