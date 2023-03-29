@@ -5,10 +5,10 @@ import "./MenuOptions.scss"
 const MenuOptions = () => {
   return (
     <div className="menu-options">
-    <Button text="Home"/>
+    <Button text="Languages"/>
     <Button text="About"/>
     <Button text="Projects"/>
-    <Button text="Get in touch" buttonStyle="hasBorder"/>
+    <Button text="Get in touch"/>
   </div>
   )
 }

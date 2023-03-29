@@ -1,21 +1,14 @@
 import React from 'react'
+import Button from '../../components/Button/Button';
 import "./Footer.scss";
 
 const Footer = () => {
   return (
-    <div className="footer-container">
-      <div className="footer-content">
-        <div className="footer-content__email">
-          <h3>joshuaatucker@hotmail.com</h3>
-        </div>
-        <div className="footer-content__return">
-          <p>Return to top</p>
-        </div>
-        <div className="footer-content__socials-container">
-          INSTA / CV / LINKED IN
-        </div>
-      </div>
-    </div>  )
+    <div className="footer">
+    <Button text="Settings"/>
+    <Button text="Return to top"/>
+    <Button text="Get in touch" buttonStyle="hasBorder"/>
+  </div>)
 }
 
 export default Footer

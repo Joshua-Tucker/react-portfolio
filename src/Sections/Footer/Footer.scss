@@ -1,3 +1,16 @@
-.footer-container{
+@use "../../styles/varibles/abstracts.scss" as *;
+@use "../../styles/varibles/typography.scss" as *;
+
+
+.footer{
     height:10vh;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width:90vw;
+    background-color: $background-third;
+    border: 1vh solid $color-light-grey;
+    border-radius: 2.5vh;
+    margin-top: 10vh;
+    width:-webkit-fill-available;
 }

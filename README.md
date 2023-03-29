@@ -54,3 +54,15 @@ const handleBrightness = () => {
   isLight ? (brightness.style.backgroundColor = "#c4d6b0"): (brightness.style.backgroundColor = "rgb(77, 77, 77");
   calculator.classList.toggle("active");
 };
+
+-STYLE FOR MOBILE
+-STYLE FOR DESKTOP
+
+-STYLE BUTTONS
+-MAKE ABOUT ME MORE CONSISE
+-STYLE OVERLAY BETTER
+
+-IMPORT SETTING ICON
+-MAKE LIGHT/DARK MODE
+-GET IN TOUCH PAGE
+-LINKS TO PLACES ON PAGE
