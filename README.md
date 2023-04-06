@@ -55,11 +55,9 @@ const handleBrightness = () => {
   calculator.classList.toggle("active");
 };
 
--STYLE FOR MOBILE
+
 -STYLE FOR DESKTOP
--STYLE BUTTONS
--MAKE ABOUT ME MORE CONSISE---Add hobbies and delete repeats
--STYLE OVERLAY BETTER
+-STYLE BUTTONS-add links
 -EDIT LOGO
 -GET IN TOUCH PAGE
 -LINKS TO PLACES ON PAGE

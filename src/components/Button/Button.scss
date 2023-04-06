@@ -14,7 +14,6 @@
   margin: 0vh 1vh;
   padding: 1vh 1vw;
 
-  // background-color: ;
   :hover {
     background-color: $dark-background-footer;
     color: $color-white;
@@ -25,11 +24,15 @@
 }
 
 .hasBorder {
-  border: 2px solid black;
   border-radius: 2vh;
   font-weight: bold;
-  width:25vw;
-
+  border: 0.5vh solid $color-dark-grey;
+  padding: 0;
+  :hover {
+    background-color: $dark-background-footer;
+    color: $color-white;
+    border-radius: 2vh;
+    padding: 2vh 2vw;
+    border: 0.5vh solid $color-dark-grey;
+  }
 }
-
-

@@ -3,7 +3,7 @@
 
 
 .language-container {
-  height:60vh;
+  height:70vh;
   text-align: center;
 }
 .language-content {
@@ -15,14 +15,20 @@
   &__title-container {
     padding: 3vh;
   }
-//   &__title {
-//   }
+  &__title {
+    font-family: $fontTitle;
+    font-size:$font-large-header;
+
+  }
   &__intro-container {
     margin-bottom: 3vh;
 
   }
-//   &__intro {
-//   }
+  &__intro {
+    font-family: $fontText;
+    font-size:$font-text;
+
+  }
   &__image-container {
     display: flex;
     flex-wrap: wrap;

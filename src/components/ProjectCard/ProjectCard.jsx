@@ -23,12 +23,8 @@ const ProjectCard = ({ type, info, title, language, image, image2 }) => {
         </div>
       </div>
       <div className="projectCard__button-container">
-        <div className="projectCard__code">
-          <Button text="Code" />
-        </div>
-        <div className="projectCard__preview">
-          <Button text="Preview" />
-        </div>
+          <Button text="Code" buttonStyle="hasBorder"/>
+          <Button text="Preview" buttonStyle="hasBorder"/>
       </div>
     </div>
   );
@@ -51,12 +47,8 @@ const ProjectCard = ({ type, info, title, language, image, image2 }) => {
         </div>
       </div>
       <div className="projectCard__button-container">
-        <div className="projectCard__code">
-          <Button text="Code" />
-        </div>
-        <div className="projectCard__preview">
-          <Button text="Preview" />
-        </div>
+          <Button text="Code" buttonStyle="hasBorder"/>
+          <Button text="Preview" buttonStyle="hasBorder"/>
       </div>
     </div>
   );

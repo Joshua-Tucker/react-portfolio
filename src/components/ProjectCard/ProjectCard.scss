@@ -2,11 +2,11 @@
 @use "../../styles/varibles/abstracts.scss" as *;
 
 .projectCard {
-  min-height: 60vh;
+  min-height: 70vh;
   height: auto;
   background-color: $background-color;
   margin: 5vh 0vw;
-  width: 85%;
+  width: 80%;
   padding: 2vh;
   display: flex;
   flex-direction: column;
@@ -25,8 +25,20 @@
     margin-bottom: 2vh;
   }
   &__image {
-    height: 28vh;
+    height: 35vh;
     width: auto;
+  }
+  &__content-language {
+    font-family: $fontTitle;
+    font-size: $font-large-header;
+  }
+  &__content-title {
+    font-family: $fontTitle;
+    font-size: $font-medium-header;
+  }
+  &__content-info {
+    font-family: $fontText;
+    font-size: 0.7rem;
   }
 
   &__button-container {
@@ -40,83 +52,13 @@
     width:15vw;
     border: 0.5vh solid $color-dark-grey;
     border-radius: 2vh;
+    text-align: center;
   }
   &__preview{
+    height: 6vh;
+    width:15vw;
     border: 0.5vh solid $color-dark-grey;
     border-radius: 2vh;
   
   }
 }
-// .two{
-//   &__image-container {
-//     height: 40vh;
-//     width: auto;
-//     overflow: hidden;
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//   }
-//   &__image {
-//     height: 80%;
-//     width: auto;
-//   }
-// }
-
-// .projectCard2 {
-//   min-height: 80vh;
-//   height: auto;
-//   background-color: $background-color;
-//   margin: 10vh 0vw;
-//   width: 85%;
-//   padding: 2vh;
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: space-evenly;
-//   align-items: center;
-//   border: 1vh solid $color-dark-grey;
-//   border-radius: 3vh;
-//   &__image-container {
-//     height: 40vh;
-//     width: auto;
-//     overflow: hidden;
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//   }
-//   &__image {
-//     height: 80%;
-//     width: auto;
-//   }
-//   &__button-container {
-//     display: flex;
-//     flex-direction: row;
-//     justify-content: flex-start;
-//     align-items: center;
-//   }
-// }
-
-//   &__content-container {
-
-//   }
-//   &__content-language-container {
-
-//   }
-//   &__content-language {
-//   }
-//   &__content-title-container {
-
-//   }
-//   &__content-language {
-//   }
-
-//   &__content-title-container {
-
-//   }
-//   &__content-title {
-//   }
-
-//   &__content-info-container {
-
-//   }
-//   &__content-info {
-//   }

@@ -7,7 +7,7 @@ const Footer = () => {
     <div className="footer">
     <Button text="Settings"/>
     <Button text="Return to top"/>
-    <Button text="Get in touch" buttonStyle="hasBorder"/>
+    <Button text="Get in touch" />
   </div>)
 }
 
