@@ -1,19 +1,26 @@
 import React from "react";
 import "./AboutMe.scss";
 import profilePicture from "../../styles/assets/images/Profile.png";
-import { useState } from "react";
+import { useState} from "react";
 import Button from "../../components/Button/Button";
 import Overlay from "../../components/Overlay/Overlay";
+
 const AboutMe = () => {
   const [showOverlay, setShowOverlay] = useState(false);
   const [isActive, setIsActive] = useState(false);
+
+
+
   const toggleOverlay = () => {
     setShowOverlay(!showOverlay);
     setIsActive(!isActive);
   };
+
+ 
+
   return (
     <>
-      {showOverlay && <Overlay handleClick={toggleOverlay} />}
+      {showOverlay && <Overlay handleClick={toggleOverlay}/>}
 
       <div className={isActive ? "about-container + active" : "about-container"}>
         <div className="about-content">

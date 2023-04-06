@@ -1,46 +1,53 @@
-
 @use "../../styles/varibles/typography.scss" as *;
 @use "../../styles/varibles/abstracts.scss" as *;
 
-.button{
-    width:15vw;
-    height:3vh;
-    font-family: 'Courier New', Courier, monospace;
-    font-size:$font-text-smallest;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.button {
+  width: 13.5vw;
+  height: 5vh;
+  font-family: $fontText;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  margin: 0vh 1vh;
+  padding: 1vh 1vw;
+
+  // background-color: ;
+  :hover {
+    background-color: $dark-background-footer;
+    color: $color-white;
+    border-radius: 2vh;
+    padding: 1vh 1vw;
     text-align: center;
-    cursor: pointer;
-   
-    // background-color: ;
+  }
 }
 
-.hasBorder{
-    border: 2px solid black;
-    border-radius: 7px;
-    font-weight: bold;
+.hasBorder {
+  border: 2px solid black;
+  border-radius: 7px;
+  font-weight: bold;
 }
 
-.projectCode{
-    width:24vw;
-    height:8vh;
-    // background-color: ;
-    // font-size: 1rem;
-    // font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border: 0.5vh solid $color-dark-grey;
-    border-radius: 10vh;
-    margin:1vh 5vw;
+.projectCode {
+  width: 24vw;
+  height: 8vh;
+  // background-color: ;
+  // font-size: 1rem;
+  // font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: 0.5vh solid $color-dark-grey;
+  border-radius: 10vh;
+  margin: 1vh 5vw;
 }
 
-.projectPreview{
-    width:28vw;
-    height:8vh;
-    // background-color: ;
-    // font-size: 1rem;
-    // font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border: 0.5vh solid $color-dark-grey;
-    border-radius: 10vh;
-    margin:1vh 5vw;
-
+.projectPreview {
+  width: 28vw;
+  height: 8vh;
+  // background-color: ;
+  // font-size: 1rem;
+  // font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: 0.5vh solid $color-dark-grey;
+  border-radius: 10vh;
+  margin: 1vh 5vw;
 }

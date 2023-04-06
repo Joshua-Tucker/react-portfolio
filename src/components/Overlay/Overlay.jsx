@@ -2,7 +2,10 @@ import React from "react";
 import "./Overlay.scss";
 import whiteCross from "../../styles/assets/images/white-cross.png";
 
+
 const Overlay = ({ handleClick }) => {
+
+
   return (
     <div className="overlay-container">
       <div className="overlay">

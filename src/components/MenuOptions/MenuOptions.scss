@@ -1,6 +1,14 @@
+@use "../../styles/varibles/abstracts.scss" as *;
+@use "../../styles/varibles/typography.scss" as *;
+
+
 .menu-options{
 display:flex;
 flex-direction: row;
-justify-content: space-evenly;
+justify-content: space-between;
 align-items: center;
+text-align: center;
+font-family: $fontText;
+margin:0;
+padding:0;
 }

@@ -14,11 +14,12 @@ const Intro = () => {
             alt="Intro Picture"
           />
         </div>
-        <div className="intro-content__intro-container">
-          <h1 className="intro-content__top">Hi,<br/> I'm Josh</h1>
-          <h2 className="intro-content__middle"> A Junior Software Engineer</h2>
+        <div className="intro-content__text-container">
+          <h1 className="intro-content__title">Hi,</h1>
+          <h1 className="intro-content__top">I'm Joshua</h1>
+          <h2 className="intro-content__middle"> <br/>I'm a Junior Software Engineer</h2>
           <h3 className="intro-content__lower">
-            {" "}
+          <br/>
             Welcome to my Journey so far
           </h3>
         </div>
