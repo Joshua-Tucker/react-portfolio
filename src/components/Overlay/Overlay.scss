@@ -37,10 +37,9 @@
 
 .overlay-container {
   position: fixed;
-  top: 10vh;
+  top: 5vh;
   left: 10vw;
   z-index: 5;
-  background-color: blue;
   height: 80vh;
   width: 80vw;
   background-color: $background-third;
@@ -49,40 +48,100 @@
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
 }
 .overlay {
-  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   padding: 4vh;
+  overscroll-behavior: contain;
+  margin-top: 10vh;
+  height: 60vh;
+  width: auto;
+  overflow-y: scroll;
 
+  .textBold{
+    font-weight: 500;
+  }
 
   &__title {
     padding: 6vh;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 1.75rem;
+    position: fixed;
+    top: 4vh;
+    font-family: $fontTitle;
+  }
+  &__text-hidden{
+    margin-top: 240vh;
+    text-align: center;
+    font-family: $fontText;
+    font-size: 0.8rem;
+    font-weight: 500;
   }
   &__text-upper {
     text-align: center;
-    // font-family: $font-modern;
-    font-size: 1rem;
-    // font-weight: 500;
-    // color: $page-sub-heading;
+    font-family: $fontText;
+    font-size: 0.8rem;
   }
   &__text-middle {
     text-align: center;
-
-    font-size: 1rem;
+    font-family: $fontText;
+    font-size: 0.8rem;
+    // font-weight: bold;
   }
   &__text-lower {
     text-align: center;
-
-    font-size: 1rem;
+    font-family: $fontText;
+    font-size: 0.8rem;
   }
-  &__cross{
-    margin:3vh;
+  &__cross {
     position: fixed;
-  top: 10vh;
-  right:7vh;
+    top: 7vh;
+    right: 7vh;
+    z-index: 5;
+    cursor: pointer;
+  }
+  &__image-container {
+    position: relative;
+    right:-1vh;
+    height: 25vh;
+    width: 25vh;
+    overflow: hidden;
+    display: flex;
+    justify-content:space-around;
+    align-items: space-around;
+    border: 1vh solid $color-light-grey;
+    border-radius: 5vh;
+    margin:2vh 0vh;
+  }
+  &__images{
+    position: relative;
+    right:-1vh;
+    height: 25vh;
+    width: 25vh;
+    overflow: hidden;
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+    border: 1vh solid $color-light-grey;
+    border-radius: 5vh;
+    margin:2vh 0vh;
+  }
+  &__images2{
+    position: relative;
+    right:-1vh;
+    height: 25vh;
+    width: 25vh;
+    overflow: hidden;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    border: 1vh solid $color-light-grey;
+    border-radius: 5vh;
+    margin:2vh 0vh;
+  }
+  &__image { 
+    height: 50vh;
+    width: auto;
   }
 }

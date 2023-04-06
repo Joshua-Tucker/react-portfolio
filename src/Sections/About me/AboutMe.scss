@@ -1,17 +1,15 @@
 @use "../../styles/varibles/abstracts.scss" as *;
 @use "../../styles/varibles/typography.scss" as *;
 
-
-
 .active {
   opacity: 20%;
+  overflow: hidden;
 }
 .about-container {
   // margin-top: 10vh;
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
   align-items: center;
 }
 .about-content {
@@ -26,22 +24,28 @@
   }
   &__title {
     font-size: 4rem;
+    font-family: $fontTitle;
   }
 
   &__text-container {
     display: flex;
     flex-direction: column;
     padding: 0vh 2vh 3vh 2vh;
+    font-family: $fontText;
   }
   &__text-upper {
     margin-top: 3vh;
-    font-size: 2rem;
+    font-size: $font-text;
     text-align: center;
   }
   &__text-lower {
     margin-top: 4vh;
-    font-size: 1.25rem;
-    text-align: left;
+    font-size: $font-text;
+    font-weight: bold;
+    text-align: center;
+  }
+  &__text-lower-hidden {
+    display: none;
   }
   &__text-bold {
     font-weight: bold;
@@ -60,5 +64,14 @@
     height: 30vh;
     width: auto;
   }
- 
+  &__button {
+    margin-bottom: 10vh;
+    border: 2px solid black;
+    border-radius: 2vh;
+    font-weight: bold;
+  }
+  &__button:hover {
+    background-color: $dark-background-footer;
+    color: $color-white;
+  }
 }

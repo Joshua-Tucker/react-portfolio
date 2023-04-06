@@ -2,11 +2,9 @@ import React from "react";
 import "./ProjectCard.scss";
 import Button from "../Button/Button";
 
-const ProjectCard = ({ type, info, title, language, image, image2,
-}) => {
-
+const ProjectCard = ({ type, info, title, language, image, image2 }) => {
   let cardType = "projectCard";
-  cardType+= " "+type;
+  cardType += " " + type;
 
   const projectCardJSX = () => (
     <div className={cardType}>
@@ -25,8 +23,12 @@ const ProjectCard = ({ type, info, title, language, image, image2,
         </div>
       </div>
       <div className="projectCard__button-container">
-        <Button buttonStyle="projectCode" text="Code" />
-        <Button buttonStyle="projectPreview" text="Preview" />
+        <div className="projectCard__code">
+          <Button text="Code" />
+        </div>
+        <div className="projectCard__preview">
+          <Button text="Preview" />
+        </div>
       </div>
     </div>
   );
@@ -49,8 +51,12 @@ const ProjectCard = ({ type, info, title, language, image, image2,
         </div>
       </div>
       <div className="projectCard__button-container">
-        <Button buttonStyle="projectCode" text="Code" />
-        <Button buttonStyle="projectPreview" text="Preview" />
+        <div className="projectCard__code">
+          <Button text="Code" />
+        </div>
+        <div className="projectCard__preview">
+          <Button text="Preview" />
+        </div>
       </div>
     </div>
   );

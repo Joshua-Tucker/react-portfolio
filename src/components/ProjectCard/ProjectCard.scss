@@ -35,6 +35,17 @@
     justify-content: flex-start;
     align-items: center;
   }
+  &__code{
+    height: 6vh;
+    width:15vw;
+    border: 0.5vh solid $color-dark-grey;
+    border-radius: 2vh;
+  }
+  &__preview{
+    border: 0.5vh solid $color-dark-grey;
+    border-radius: 2vh;
+  
+  }
 }
 // .two{
 //   &__image-container {

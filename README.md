@@ -58,7 +58,7 @@ const handleBrightness = () => {
 -STYLE FOR MOBILE
 -STYLE FOR DESKTOP
 -STYLE BUTTONS
--MAKE ABOUT ME MORE CONSISE
+-MAKE ABOUT ME MORE CONSISE---Add hobbies and delete repeats
 -STYLE OVERLAY BETTER
 -EDIT LOGO
 -GET IN TOUCH PAGE
@@ -66,3 +66,6 @@ const handleBrightness = () => {
 
 -IMPORT SETTING ICON
 -MAKE LIGHT/DARK MODE
+
+
+

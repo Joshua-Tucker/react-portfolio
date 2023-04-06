@@ -26,28 +26,10 @@
 
 .hasBorder {
   border: 2px solid black;
-  border-radius: 7px;
+  border-radius: 2vh;
   font-weight: bold;
+  width:25vw;
+
 }
 
-.projectCode {
-  width: 24vw;
-  height: 8vh;
-  // background-color: ;
-  // font-size: 1rem;
-  // font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  border: 0.5vh solid $color-dark-grey;
-  border-radius: 10vh;
-  margin: 1vh 5vw;
-}
 
-.projectPreview {
-  width: 28vw;
-  height: 8vh;
-  // background-color: ;
-  // font-size: 1rem;
-  // font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  border: 0.5vh solid $color-dark-grey;
-  border-radius: 10vh;
-  margin: 1vh 5vw;
-}
