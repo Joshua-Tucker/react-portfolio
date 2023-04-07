@@ -2,7 +2,7 @@
 @use "../../styles/varibles/typography.scss" as *;
 
 .intro-container {
-  height: 100vh;
+  height: 90vh;
   text-align: center;
   margin-bottom: 5vh;
   width:100vw;
@@ -89,24 +89,70 @@
   }
 }
 
+@media screen and (min-width: $tablet-breakpoint) {
+  .intro-content {
+
+    &__title{
+      margin-top: 11vh;
+      font-size: 8rem;
+      text-align: left;
+      line-height: 40%;
+      padding:0;
+    }
+    &__top {
+      text-align: center;
+      margin-top: 8vh;
+      font-size: 5rem;
+      line-height: 45%;
+      letter-spacing: 0.1rem;
+      padding:0;
+
+    }  
+    &__image-container {
+      height: 35vh;
+      width: 35vh;
+      top: 2vh;
+      right: -1vw;
+    }
+    &__image {
+      height: 28vh;
+    }
+    &__middle {
+      font-size: 2rem;
+      font-weight: 100;
+      letter-spacing: 0.15rem;
+    }
+    &__lower {
+      line-height: 85%;
+    }
+  }
+
+}
+
+
 @media screen and (min-width: $large-desktop-breakpoint) {
   .intro-content {
     &__text-container {
-      width:80vw;
+      height:65vh;
     }
     &__title{
-      margin-top: 8vh;
-      width:55vw;
-      font-size: 7rem;
       text-align: left;
-      line-height: 60%;
+      margin-top: 8vh;
+      font-size: 8rem;
+      text-align: left;
+      line-height: 70%;
+      padding:0;
+      padding-left: 20vh;
+
     }
     &__top {
       margin-top: 8vh;
-      width:65vw;
-      font-size: 5rem;
+      font-size: 6rem;
       line-height: 35%;
-      letter-spacing: 0.1rem;
+      letter-spacing: 0.12rem;
+      padding:0;
+      text-align: left;
+      padding-left: 20vh;
     }  
     &__image-container {
       height: 55vh;
@@ -121,11 +167,17 @@
       font-size: 2rem;
       font-weight: 100;
       letter-spacing: 0.15rem;
+      margin-top: 2vh;
+
     }
     &__lower {
-      line-height: 85%;
+      line-height: 45%;
+
+
+    }
+    &__menu {
+      margin-top: 4vh;
     }
   }
-
 }
 

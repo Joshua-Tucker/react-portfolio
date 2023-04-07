@@ -1,7 +1,6 @@
 @use "../../styles/varibles/abstracts.scss" as *;
 @use "../../styles/varibles/typography.scss" as *;
 
-
 .overlay-container {
   position: fixed;
   top: 5vh;
@@ -21,20 +20,19 @@
   align-items: center;
   padding: 4vh;
   overscroll-behavior: contain;
-  margin-top: 10vh;
+  margin-top: 11vh;
   height: 60vh;
   width: auto;
   overflow-y: scroll;
 
-  .textBold{
+  .textBold {
     font-weight: 500;
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     font-family: $fontText;
     font-size: 0.8rem;
-
   }
 
   &__title {
@@ -45,18 +43,18 @@
     top: 4vh;
     font-family: $fontTitle;
   }
-  &__text-hidden{
+  &__text-hidden {
     margin-top: 175vh;
     text-align: center;
     font-family: $fontText;
     font-size: 0.8rem;
     font-weight: 500;
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
   }
   &__text-upper {
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -67,7 +65,7 @@
     text-align: center;
     font-family: $fontText;
     font-size: 0.8rem;
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -76,7 +74,7 @@
     text-align: center;
     font-family: $fontText;
     font-size: 0.8rem;
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -87,52 +85,83 @@
     right: 8vh;
     z-index: 5;
     cursor: pointer;
-    :hover{
+    :hover {
       background-color: $color-light-grey;
       border-radius: 50%;
     }
   }
   &__image-container {
     position: relative;
-    right:-1vh;
+    right: -1vh;
     height: 25vh;
     width: 25vh;
     overflow: hidden;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: space-around;
     border: 1vh solid $color-light-grey;
     border-radius: 5vh;
-    margin:2vh 0vh;
+    margin: 2vh 0vh;
   }
-  &__images{
+  &__images {
     position: relative;
-    right:-1vh;
+    right: -1vh;
     height: 25vh;
     width: 25vh;
     overflow: hidden;
     display: flex;
-    justify-content:center;
-    align-items:flex-end;
+    justify-content: center;
+    align-items: flex-end;
     border: 1vh solid $color-light-grey;
     border-radius: 5vh;
-    margin:2vh 0vh;
+    margin: 2vh 0vh;
   }
-  &__images2{
+  &__images2 {
     position: relative;
-    right:-1vh;
+    right: -1vh;
     height: 25vh;
     width: 25vh;
     overflow: hidden;
     display: flex;
-    justify-content:center;
-    align-items:center;
+    justify-content: center;
+    align-items: center;
     border: 1vh solid $color-light-grey;
     border-radius: 5vh;
-    margin:2vh 0vh;
+    margin: 2vh 0vh;
   }
-  &__image { 
+  &__image {
     height: 50vh;
     width: auto;
+  }
+}
+
+@media screen and (min-width: $tablet-breakpoint) {
+  .overlay {
+    &__text-hidden {
+      margin-top: 183vh;
+    }
+  }
+}
+@media screen and (min-width: $large-desktop-breakpoint) {
+  .overlay {
+    &__text-hidden {
+      margin-top: 220vh;
+    }
+    &__image {
+      height: 77vh;
+      width: auto;
+    }
+    &__image-container {
+      height: 30vh;
+      width: 50vh;
+    }
+    &__images {
+      height: 32vh;
+      width: 50vh;
+    }
+    &__images2 {
+      height: 30vh;
+      width: 50vh;
+    }
   }
 }

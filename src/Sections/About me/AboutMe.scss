@@ -59,7 +59,6 @@
     align-items: center;
     border-radius: 50vh;
     border: 1vh solid $color-light-grey;
-
   }
   &__image {
     height: 30vh;
@@ -74,5 +73,10 @@
   &__button:hover {
     background-color: $dark-background-footer;
     color: $color-white;
+  }
+}
+@media screen and (min-width: $large-desktop-breakpoint) {
+  .about-content {
+    width: 80vw;
   }
 }
