@@ -54,7 +54,7 @@ const AboutMe = () => {
 
         <div className="about-content__button">
           <Button
-            text={"Find out more ..."}
+            text={"I've got more to tell..."}
             handleClick={toggleOverlay}
           />
         </div>

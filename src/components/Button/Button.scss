@@ -18,8 +18,8 @@
     background-color: $dark-background-footer;
     color: $color-white;
     border-radius: 2vh;
-    padding: 1vh 1vw;
-    text-align: center;
+    padding: 1vh 1.5vw;
+    
   }
 }
 
@@ -36,3 +36,10 @@
     border: 0.5vh solid $color-dark-grey;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .button {
+    font-size:3rem !important;
+  }
+}
+

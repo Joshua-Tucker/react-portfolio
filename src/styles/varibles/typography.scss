@@ -15,15 +15,7 @@ $font-text: 1.125rem;
 $font-text-small: 1rem;
 $font-text-smallest: 0.8rem;
 
-
-
-
-
-
-
-
-  
-  h1,
+h1,
   h2,
   h3,
   p {
@@ -61,6 +53,6 @@ $font-text-smallest: 0.8rem;
 
   @media screen and (min-width: $desktop-breakpoint) {
     :root {
-      font-size: 120%;
+      font-size: 150%;
     }
   }

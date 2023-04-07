@@ -17,13 +17,16 @@ const Intro = () => {
         <div className="intro-content__text-container">
           <h1 className="intro-content__title">Hi,</h1>
           <h1 className="intro-content__top">I'm Joshua</h1>
-          <h2 className="intro-content__middle"> <br/>I'm a Junior Software Engineer</h2>
+          <h2 className="intro-content__middle">
+            {" "}
+            <br />
+            I'm a Junior Software Engineer
+          </h2>
           <h3 className="intro-content__lower">
-          <br/>
+            <br />
             Welcome to my Journey so far
           </h3>
         </div>
-
         <div className="intro-content__menu">
           <MenuOptions />
         </div>
