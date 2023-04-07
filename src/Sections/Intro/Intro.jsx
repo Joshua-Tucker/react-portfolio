@@ -3,9 +3,9 @@ import "./Intro.scss";
 import logo from "../../styles/assets/images/Logo.png";
 import MenuOptions from "../../components/MenuOptions/MenuOptions";
 
-const Intro = () => {
+const Intro = ({button}) => {
   return (
-    <div className="intro-container">
+    <div className="intro-container" id="top">
       <div className="intro-content">
         <div className="intro-content__image-container">
           <img

@@ -145,7 +145,7 @@
 @media screen and (min-width: $large-desktop-breakpoint) {
   .overlay {
     &__text-hidden {
-      margin-top: 220vh;
+      margin-top: 225vh;
     }
     &__image {
       height: 77vh;
@@ -162,6 +162,11 @@
     &__images2 {
       height: 30vh;
       width: 50vh;
+    }
+    &__cross {
+      top: 7vh;
+      right: 16vh;
+  
     }
   }
 }

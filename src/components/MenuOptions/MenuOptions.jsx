@@ -1,16 +1,33 @@
-import React from 'react'
-import Button from '../Button/Button'
-import "./MenuOptions.scss"
+import React from "react";
+import Button from "../Button/Button";
+import "./MenuOptions.scss";
+import { Link } from "react-scroll";
 
 const MenuOptions = () => {
+  const scrollToAbout = () => {
+    Link.scrollTo("about", {});
+  };
+  const scrollToProjects = () => {
+    Link.scrollTo("projects", {});
+  };
+  const scrollToLang = () => {
+    Link.scrollTo("lang", {});
+  };
   return (
     <div className="menu-options">
-    <Button text="Technical Skills"/>
-    <Button text="About"/>
-    <Button text="Projects"/>
-    <Button text="Get in touch"/>
-  </div>
-  )
-}
+      <Link to="lang" spy={true} smooth={true} offset={0} duration={500}>
+        <Button text="Technical Skills" />
+      </Link>
+      <Link to="about" spy={true} smooth={true} offset={-50} duration={500}>
+        <Button text="About" />
+      </Link>
+      <Link to="projects" spy={true} smooth={true} offset={0} duration={500}>
+        <Button text="Projects" />
+      </Link>
 
-export default MenuOptions
+      <Button text="Get in touch" />
+    </div>
+  );
+};
+
+export default MenuOptions;

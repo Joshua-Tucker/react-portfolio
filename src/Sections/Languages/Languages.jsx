@@ -12,7 +12,7 @@ import gitLogo from "../../styles/assets/images/Skill=Git.png";
 
 const Languages = () => {
   return (
-    <div className="language-container">
+    <div id="lang" className="language-container">
       <div className="language-content">
         <div className="language-content__text-container">
           <div className="language-content__title-container">
@@ -41,7 +41,11 @@ const Languages = () => {
             src={reactLogo}
             alt="React Logo"
           />
-          <img className="language-content__image" src={bemLogo} alt="BEM Logo" />
+          <img
+            className="language-content__image"
+            src={bemLogo}
+            alt="BEM Logo"
+          />
           <img
             className="language-content__image"
             src={scssLogo}
@@ -52,13 +56,21 @@ const Languages = () => {
             src={jscriptLogo}
             alt="JavaScript Logo"
           />
-          <img className="language-content__image" src={cssLogo} alt="CSS Logo" />
+          <img
+            className="language-content__image"
+            src={cssLogo}
+            alt="CSS Logo"
+          />
           <img
             className="language-content__image"
             src={htmlLogo}
             alt="HTML Logo"
           />
-          <img className="language-content__image" src={gitLogo} alt="Git Logo" />
+          <img
+            className="language-content__image"
+            src={gitLogo}
+            alt="Git Logo"
+          />
         </div>
       </div>
     </div>

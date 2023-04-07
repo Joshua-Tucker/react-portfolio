@@ -4,6 +4,8 @@ import profilePicture from "../../styles/assets/images/Profile.png";
 import { useState } from "react";
 import Button from "../../components/Button/Button";
 import Overlay from "../../components/Overlay/Overlay";
+import { Link } from "react-scroll";
+
 
 const AboutMe = () => {
   const [showOverlay, setShowOverlay] = useState(false);
@@ -14,11 +16,13 @@ const AboutMe = () => {
     setIsActive(!isActive);
   };
 
+
+
   return (
     <>
       {showOverlay && <Overlay handleClick={toggleOverlay} />}
 
-      <div
+      <div id="about"
         className={isActive ? "about-container + active" : "about-container"}
       >
         <div className="about-content">

@@ -133,7 +133,8 @@
 @media screen and (min-width: $large-desktop-breakpoint) {
   .intro-content {
     &__text-container {
-      height:65vh;
+      min-height:72vh;
+      height: auto;
     }
     &__title{
       text-align: left;

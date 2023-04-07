@@ -56,7 +56,7 @@ const handleBrightness = () => {
 };
 
 
--STYLE FOR DESKTOP
+
 -STYLE BUTTONS-add links
 -EDIT LOGO
 -GET IN TOUCH PAGE
