@@ -8,7 +8,7 @@ const Button = ({text, buttonStyle, handleClick}) => {
 
   return (
     <div className={buttonName} onClick={handleClick}>
-        <p className='button-text'>{text}</p>
+        <h3 className='button-text'>{text}</h3>
     </div>
   )
 }

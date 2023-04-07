@@ -2,7 +2,16 @@ import React from "react";
 import "./ProjectCard.scss";
 import Button from "../Button/Button";
 
-const ProjectCard = ({ type, info, title, language, image, image2 }) => {
+const ProjectCard = ({
+  type,
+  info,
+  title,
+  language,
+  image,
+  image2,
+  code,
+  preview,
+}) => {
   let cardType = "projectCard";
   cardType += " " + type;
 
@@ -23,8 +32,8 @@ const ProjectCard = ({ type, info, title, language, image, image2 }) => {
         </div>
       </div>
       <div className="projectCard__button-container">
-          <Button text="Code" buttonStyle="hasBorder"/>
-          <Button text="Preview" buttonStyle="hasBorder"/>
+        <Button text="Code" handleClick={code} />
+        <Button text="Preview" handleClick={preview} />
       </div>
     </div>
   );
@@ -47,8 +56,8 @@ const ProjectCard = ({ type, info, title, language, image, image2 }) => {
         </div>
       </div>
       <div className="projectCard__button-container">
-          <Button text="Code" buttonStyle="hasBorder"/>
-          <Button text="Preview" buttonStyle="hasBorder"/>
+        <Button text="Code" handleClick={code} />
+        <Button text="Preview" handleClick={preview} />
       </div>
     </div>
   );

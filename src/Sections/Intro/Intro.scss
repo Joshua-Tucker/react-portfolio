@@ -5,7 +5,7 @@
   height: 90vh;
   text-align: center;
   margin-bottom: 5vh;
-  width:100vw;
+  width: 100vw;
 }
 
 .intro-content {
@@ -13,13 +13,12 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  width:auto;
-  margin:2vh;
+  width: auto;
+  margin: 2vh;
   margin-top: 5vh;
 
-
   &__text-container {
-    padding:1vh;
+    padding: 1vh;
     background-color: $background-third;
     border: 1vh solid $color-light-grey;
     border-radius: 5vh;
@@ -29,23 +28,21 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width:80vw;
-
+    width: 80vw;
   }
-  &__title{
+  &__title {
     font-size: 7rem;
-    text-align: left; 
+    text-align: left;
     font-weight: 900;
     font-family: $fontTitle;
     padding-left: 10vw;
   }
   &__top {
     font-size: 4.5rem;
-    text-align: left; 
+    text-align: left;
     font-weight: 500;
     font-family: $fontTitle;
     padding-left: 10vw;
-
   }
 
   &__middle {
@@ -53,16 +50,12 @@
     text-align: center;
     font-weight: 400;
     font-family: $fontTitle;
-
-
   }
   &__lower {
     font-size: 1.5rem;
     text-align: center;
     font-family: $fontTitle;
     font-weight: 400;
-
-
   }
   &__image-container {
     height: 28vh;
@@ -72,32 +65,28 @@
     top: 2vh;
     right: 1vw;
     z-index: 5;
-
   }
   &__image {
     height: 23vh;
     border-radius: 50%;
-    border: 1vh solid $color-light-grey;
-
   }
   &__menu {
     background-color: $background-third;
     border: 1vh solid $color-light-grey;
     border-radius: 2.5vh;
     margin-top: 8vh;
-    padding:0vh 2vh;
+    padding: 0vh 2vh;
   }
 }
 
 @media screen and (min-width: $tablet-breakpoint) {
   .intro-content {
-
-    &__title{
+    &__title {
       margin-top: 11vh;
       font-size: 8rem;
       text-align: left;
       line-height: 40%;
-      padding:0;
+      padding: 0;
     }
     &__top {
       text-align: center;
@@ -105,9 +94,8 @@
       font-size: 5rem;
       line-height: 45%;
       letter-spacing: 0.1rem;
-      padding:0;
-
-    }  
+      padding: 0;
+    }
     &__image-container {
       height: 35vh;
       width: 35vh;
@@ -126,59 +114,52 @@
       line-height: 85%;
     }
   }
-
 }
-
 
 @media screen and (min-width: $large-desktop-breakpoint) {
   .intro-content {
     &__text-container {
-      min-height:72vh;
+      min-height: 72vh;
       height: auto;
     }
-    &__title{
+    &__title {
       text-align: left;
       margin-top: 8vh;
       font-size: 8rem;
       text-align: left;
       line-height: 70%;
-      padding:0;
+      padding: 0;
       padding-left: 20vh;
-
     }
     &__top {
       margin-top: 8vh;
       font-size: 6rem;
       line-height: 35%;
       letter-spacing: 0.12rem;
-      padding:0;
+      padding: 0;
       text-align: left;
       padding-left: 20vh;
-    }  
+    }
     &__image-container {
       height: 55vh;
       width: 55vh;
-      top: 2vh;
-      right: 3vw;
+      top: 1vh;
+      right: 2vw;
     }
     &__image {
-      height: 48vh;
+      height: 55vh;
     }
     &__middle {
       font-size: 2rem;
       font-weight: 100;
       letter-spacing: 0.15rem;
-      margin-top: 2vh;
-
+      margin-top: 4vh;
     }
     &__lower {
       line-height: 45%;
-
-
     }
     &__menu {
       margin-top: 4vh;
     }
   }
 }
-

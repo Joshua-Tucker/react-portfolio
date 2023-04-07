@@ -1,9 +1,9 @@
 import React from "react";
 import "./Intro.scss";
-import logo from "../../styles/assets/images/Logo.png";
+import logo from "../../styles/assets/images/logoBig.png";
 import MenuOptions from "../../components/MenuOptions/MenuOptions";
 
-const Intro = ({button}) => {
+const Intro = () => {
   return (
     <div className="intro-container" id="top">
       <div className="intro-content">

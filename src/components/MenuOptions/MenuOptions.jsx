@@ -4,15 +4,7 @@ import "./MenuOptions.scss";
 import { Link } from "react-scroll";
 
 const MenuOptions = () => {
-  const scrollToAbout = () => {
-    Link.scrollTo("about", {});
-  };
-  const scrollToProjects = () => {
-    Link.scrollTo("projects", {});
-  };
-  const scrollToLang = () => {
-    Link.scrollTo("lang", {});
-  };
+
   return (
     <div className="menu-options">
       <Link to="lang" spy={true} smooth={true} offset={0} duration={500}>
@@ -25,7 +17,7 @@ const MenuOptions = () => {
         <Button text="Projects" />
       </Link>
 
-      <Button text="Get in touch" />
+      {/* <Button text="Get in touch" /> */}
     </div>
   );
 };
