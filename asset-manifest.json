@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.7ff18e71.css",
+    "main.js": "/react-portfolio/static/js/main.61469906.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/ski.jpg": "/react-portfolio/static/media/ski.382f7d1b04842a72c7d5.jpg",
+    "static/media/porto1.jpg": "/react-portfolio/static/media/porto1.983641c2bc1845151e4c.jpg",
+    "static/media/porto2.jpg": "/react-portfolio/static/media/porto2.9cebde521ad16da2fc3e.jpg",
+    "static/media/kitchen.jpg": "/react-portfolio/static/media/kitchen.11d623a082782bed8ffc.jpg",
+    "static/media/Profile.png": "/react-portfolio/static/media/Profile.6e3a8f0ddcf7948a8dbf.png",
+    "static/media/logoBig.png": "/react-portfolio/static/media/logoBig.eceb99128f5b994a4aac.png",
+    "static/media/punk.jpeg": "/react-portfolio/static/media/punk.e2c762eaac18bfc14748.jpeg",
+    "static/media/connect-four.jpeg": "/react-portfolio/static/media/connect-four.a2ed2f4f6faf8f9e8908.jpeg",
+    "static/media/clientProject.jpeg": "/react-portfolio/static/media/clientProject.90490f293528d87a64ef.jpeg",
+    "static/media/lightmode.jpeg": "/react-portfolio/static/media/lightmode.e8400752a3f32799d2f0.jpeg",
+    "static/media/darkmode.jpeg": "/react-portfolio/static/media/darkmode.4e0a8d89233e35ce2670.jpeg",
+    "index.html": "/react-portfolio/index.html",
+    "main.7ff18e71.css.map": "/react-portfolio/static/css/main.7ff18e71.css.map",
+    "main.61469906.js.map": "/react-portfolio/static/js/main.61469906.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ff18e71.css",
+    "static/js/main.61469906.js"
+  ]
+}
