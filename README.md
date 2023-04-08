@@ -57,7 +57,6 @@ const handleBrightness = () => {
 
 
 
--EDIT LOGO
 -GET IN TOUCH PAGE
 
 -IMPORT SETTING ICON
