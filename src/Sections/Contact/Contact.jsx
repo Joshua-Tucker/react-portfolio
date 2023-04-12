@@ -31,24 +31,36 @@ const Contact = () => {
             </div>
             <div className="contact__socials-container">
               <h3 className="contact__sub-title">Socials</h3>
-              <div className="contact__info">
-                <img
-                  src={insta}
-                  alt="Instagram logo"
-                  className="contact__image"
-                />
-                <p className="contact__text">joshtucker17</p>
+              <div className="contact__socials-container">
+                <a
+                  href="https://www.instagram.com/joshtucker17/"
+                  style={{ textDecoration: "none", color: "black" }}
+                >
+                  <div className="contact__info">
+                    <img
+                      src={insta}
+                      alt="Instagram logo"
+                      className="contact__image"
+                    />
+                    <p className="contact__text">joshtucker17</p>
+                  </div>
+                </a>
               </div>
-              <div className="contact__info">
-                <img
-                  src={github}
-                  alt="Github logo"
-                  className="contact__image"
-                />
-                <p className="contact__text">
-                  https://github.com/Joshua-Tucker
-                </p>
-              </div>
+              <a
+                href="https://github.com/Joshua-Tucker"
+                style={{ textDecoration: "none", color: "black" }}
+              >
+                <div className="contact__info">
+                  <img
+                    src={github}
+                    alt="Github logo"
+                    className="contact__image"
+                  />
+                  <p className="contact__text">
+                    https://github.com/Joshua-Tucker
+                  </p>
+                </div>
+              </a>
             </div>
           </div>
           <div className="contact__footer-container">
