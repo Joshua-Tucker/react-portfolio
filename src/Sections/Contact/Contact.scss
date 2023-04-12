@@ -1,0 +1,109 @@
+@use "../../styles/varibles/abstracts.scss" as *;
+@use "../../styles/varibles/typography.scss" as *;
+
+.contact-container {
+  height: 96vh;
+  width: auto;
+  background-color: $dark-background-third;
+  padding: 1vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  &__info{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__name {
+    font-family: $fontTitle;
+    padding-left: 5vw;
+    color: $dark-font-color-footer;
+  }
+  &__image{
+    padding-left: 1.5vw;
+    height:7vh;
+  }
+  &__home{
+    height:7vh;
+    padding-right: 1.5vw;
+  }
+
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__content {
+    margin-top: 10vh;
+    height: 70vh;
+    width: 85vw;
+    background-color: $background-third;
+    border: 1vh solid $color-light-grey;
+    border-radius: 5vh;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1.75fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "title title tiles "
+      "title title tiles "
+      "title title tiles "
+      "footer footer footer";
+  }
+
+  &__title {
+    font-family: $fontTitle;
+    font-size: 5rem;
+    width: 40vw;
+    padding-left: 4vw;
+    margin-top: 7vw;
+
+  }
+
+  &__tiles {
+    display: flex;
+    flex-direction: column;
+  }
+  &__footer-container {
+    margin-top: 5vh;
+    grid-area: footer;
+    justify-self: center;
+    width: 75%;
+  }
+  &__title-container {
+    grid-area: title;
+  
+  }
+  &__tiles {
+    grid-area: tiles;
+  }
+  &__sub-title {
+    margin-top: 10vh;
+    font-family: $fontTitle;
+    font-size: $font-medium-header;
+  }
+  &__text {
+    font-family: $fontText;
+    margin-left: 2vw;
+  }
+  &__footer {
+    font-family: $fontText;
+    font-size: $font-text-smallest;
+  }
+  &__image {
+    height: 2.5vh;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,23 +1,36 @@
 import React from "react";
 import Button from "../Button/Button";
 import "./MenuOptions.scss";
-import { Link } from "react-scroll";
+import { Link as ScrollLink } from "react-scroll";
+import { Link as RouterLink } from "react-router-dom";
 
 const MenuOptions = () => {
-
   return (
     <div className="menu-options">
-      <Link to="lang" spy={true} smooth={true} offset={0} duration={500}>
+      <ScrollLink to="lang" spy={true} smooth={true} offset={0} duration={500}>
         <Button text="Technical Skills" />
-      </Link>
-      <Link to="about" spy={true} smooth={true} offset={-50} duration={500}>
+      </ScrollLink>
+      <ScrollLink
+        to="about"
+        spy={true}
+        smooth={true}
+        offset={-50}
+        duration={500}
+      >
         <Button text="About" />
-      </Link>
-      <Link to="projects" spy={true} smooth={true} offset={0} duration={500}>
+      </ScrollLink>
+      <ScrollLink
+        to="projects"
+        spy={true}
+        smooth={true}
+        offset={0}
+        duration={500}
+      >
         <Button text="Projects" />
-      </Link>
-
-      {/* <Button text="Get in touch" /> */}
+      </ScrollLink>
+      <RouterLink style={{ textDecoration: "none",color:"black"}} to={"/contact"}>
+        <Button text="Get in touch" />
+      </RouterLink>
     </div>
   );
 };
