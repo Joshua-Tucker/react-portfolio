@@ -4,6 +4,7 @@ import profilePicture from "../../styles/assets/images/Profile.png";
 import Button from "../../components/Button/Button";
 import Overlay from "../../components/Overlay/Overlay";
 import { Link } from "react-scroll";
+import { useState } from "react";
 
 const AboutMe = () => {
   const [showOverlay, setShowOverlay] = useState(false);
