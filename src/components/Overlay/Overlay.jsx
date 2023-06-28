@@ -85,7 +85,7 @@ const Overlay = ({ handleClick }) => {
         </p>
         <p className="textBold">
           Are you ready to join forces with a versatile professional who's
-          passionate about pushing boundaries?{" "}
+          passionate about pushing boundaries?
         </p>
 
         <div className="overlay__button">
