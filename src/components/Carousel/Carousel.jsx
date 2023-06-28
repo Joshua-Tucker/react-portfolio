@@ -55,13 +55,13 @@ const Carousel = () => {
           title={"Client Project"}
           language={"React"}
           info={
-            "This was my first introduction to a real-life coding working enviroment. We were peer-programming our way though tickets to deliver this impressive site in a small frame of time."
+            "This was my first introduction to a real-life coding working enviroment. We were peer-programming our way though tickets to deliver this impressive site in a small time frame."
           }
           image={punkImg}
           code={webLink("https://github.com/nology-tech/Sable-client-project")}
           preview={webLink("https://sable-client-project.web.app/")}
         />
-        <ProjectCard
+        {/* <ProjectCard
           type={"one"}
           title={"Full Stack Project"}
           language={"React/Java/SQL"}
@@ -71,7 +71,7 @@ const Carousel = () => {
           image={punkImg}
           code={webLink("")}
           preview={webLink("")}
-        />
+        /> */}
       </CarouselImport>
     </>
   );

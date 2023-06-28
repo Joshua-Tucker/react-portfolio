@@ -15,123 +15,79 @@ const Overlay = ({ handleClick }) => {
           <img onClick={handleClick} src={whiteCross} alt="cross" />
         </div>
         <h1 className="overlay__title">A bit more about me..</h1>
-        <p className="overlay__text-hidden">
-          I’ve been fortunate enough to already have 1 successful career as a
-          kitchen installer, which taught me many useful skills. I love a
-          challenge and constantly push myself but more importantly, I want
-          something that I can genuinely enjoy and help people on a larger
-          scale.
-        </p>
+
         <p className="overlay__text-upper">
-          I’ve been project managing Kitchen Installations and teaching
-          apprentices since I was 21 years old (See babyfaced photo below)
-          <div className="overlay__image-container">
-            <img className="overlay__image" src={photo3} alt="Photo of me" />
-          </div>
+          Hey there! I recently took a leap into the captivating realm of
+          coding. Through an intensive 3-month bootcamp with _nology, I immersed
+          myself in the intricacies of Java, React, and Spring Boot, acquiring
+          valuable expertise along the way. But that's just the beginning.
           <br />
         </p>
 
         <p className="textBold">
-          Working under pressure came with each installation.
+          I've been fortunate enough to have had a successful career as a
+          kitchen installer, which not only taught me essential skills but also
+          instilled in me the love for challenges and continuous
+          self-improvement.
         </p>
         <br />
         <br />
         <br />
         <p className="overlay__text-upper">
-          Not only were we judged for not having the experience necessary before
-          we stepped in the front door, but I was also the third generation of
-          kitchen installer within our family and had a name to live up to.
+          Project managing kitchen installations and teaching apprentices from a
+          young age has allowed me to develop strong leadership and
+          communication skills, and I've always had a passion for helping others
+          on a larger scale.
         </p>
 
         <p className="textBold">
-          Each job required a high attention to detail and quick decision
-          making.
+          In my spare time, I've embraced a variety of hobbies, especially
+          during the lockdown period.
         </p>
         <br />
         <br />
         <p className="overlay__text-middle">
-          To ensure our customers was satisfied with the result, I had a system
-          in place to ensure we would reach our goal.
-          <br />
-          <br />
-          This involved:-
+          From climbing and skateboarding to playing the piano, kickboxing, and
+          even learning Japanese, I've discovered the joy of exploring different
+          passions.
           <br />
           <br />
         </p>
         <p className="textBold">
-          -Clear communication, everyone knew what they had to do and a target
-          to get it completed by to make sure it didn’t hold anyone else up.
+          However, my biggest love is skiing. The beauty of the mountains, the
+          smell of the fresh forest air, flying down the slopes, and enjoying
+          live music and a beer with like-minded people is simply the best.
         </p>
         <br />
         <br />
         <p className="overlay__text-middle">
-          -Structured plan, everyone had the roles to play to support each other
-          if we were falling behind so we didn’t overrun.
+          Currently, I'm embracing a new role as a live-in landlord, and I'm
+          grateful for the transferable skills from my previous experience as a
+          business owner.
           <br />
           <br />
         </p>
         <p className="textBold">
-          -Focus on quality, we were all competitive, so it was important to
-          exercise this. Showboating was encouraged to show off to everyone else
-          when a worktop join was flawless or an infill was perfectly scribed!
+          {" "}
+          This new yet familiar environment allows me to utilize my expertise in
+          managing projects, problem-solving, and creating a positive living
+          experience for tenants.
         </p>
         <br />
         <br />
-        <p className="overlay__text-middle">
-          <div className="overlay__images2">
-            <img className="overlay__image" src={photoSki} alt="Photo of me" />
-          </div>
-        </p>
 
         <p className="overlay__text-lower">
-          In my spare time, I’ve picked up a variety of hobbies since lockdown.
+          With this diverse background, a drive for continuous learning, and a
+          genuine desire to make a difference, I'm poised to contribute to the
+          world of coding and innovation.
           <br />
           <br />
+        </p>
+        <p className="textBold">
+          Are you ready to join forces with a versatile professional who's
+          passionate about pushing boundaries?{" "}
         </p>
 
-        <p className="textBold">
-          These include climbing, skateboarding, piano, kickboxing and learning
-          Japanese. My biggest love is skiing but sadly haven’t been on a
-          mountain in a few years now.{" "}
-        </p>
-        <br />
-        <br />
-        <p className="overlay__text-lower">
-          I enjoy adventure, so I like getting lost in the woods and exploring
-          new cities by myself.
-          <div className="overlay__images2">
-            <img className="overlay__image" src={photo1} alt="Photo of me" />
-          </div>
-          I’m currently a live-in landlord and I’m thankful for having my
-          previous experience as a business owner to transfer over skills to
-          this new yet similar environment.
-          <br />
-          <br />
-        </p>
-
-        <p className="textBold">
-          Not everything was transferable however and this has been learnt the
-          hard way.
-        </p>
-        <br />
-        <br />
-        <p className="overlay__text-lower">
-          It’s a role that I’m always learning from and adapting to, to make
-          sure that those who live with me have a home to live in, not a room to
-          rent.
-          <div className="overlay__images">
-            <img className="overlay__image" src={photo2} alt="Photo of me" />
-          </div>
-          Due to finish the _nology full stack course soon and have learnt a lot
-          about myself and my capabilities in this time.
-          <br />
-          <br />
-        </p>
-        <p className="textBold">
-          I find it amazing what we have learnt in a short time and am
-          incredibly excited to be a part of projects and make a difference to
-          people in the real world.
-        </p>
         <div className="overlay__button">
           <Button text="Return to page" handleClick={handleClick} />
         </div>

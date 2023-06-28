@@ -1,11 +1,9 @@
 import React from "react";
 import "./AboutMe.scss";
 import profilePicture from "../../styles/assets/images/Profile.png";
-import { useState } from "react";
 import Button from "../../components/Button/Button";
 import Overlay from "../../components/Overlay/Overlay";
 import { Link } from "react-scroll";
-
 
 const AboutMe = () => {
   const [showOverlay, setShowOverlay] = useState(false);
@@ -16,13 +14,12 @@ const AboutMe = () => {
     setIsActive(!isActive);
   };
 
-
-
   return (
     <>
       {showOverlay && <Overlay handleClick={toggleOverlay} />}
 
-      <div id="about"
+      <div
+        id="about"
         className={isActive ? "about-container + active" : "about-container"}
       >
         <div className="about-content">
@@ -38,13 +35,14 @@ const AboutMe = () => {
           </div>
           <div className="about-content__text-container">
             <p className="about-content__text-upper">
-              I’m choosing a career in Tech as this has been an industry that’s
-              always sparked my curiosity and yet, I've always treated it as a
-              daydream.
+              Are you ready for an exhilarating adventure into the world of
+              coding and innovation? Imagine the possibilities when artificial
+              intelligence, neurocomputing, and robotics converge, shaping
+              groundbreaking advancements.
             </p>
             <p className="about-content__text-lower">
-              The fact that its beginning to turn into reality is incredibly
-              exciting.
+              I'm on a mission to be part of this incredible journey. 🌟 Unlock
+              the Power of Innovation | Click below to explore further 🌟
             </p>
             <p className="about-content__text-lower-hidden">
               I’ve been fortunate enough to already have 1 successful career as

@@ -19,11 +19,12 @@
   justify-content: space-evenly;
   align-items: center;
   padding: 4vh;
-  overscroll-behavior: contain;
   margin-top: 11vh;
   height: 60vh;
   width: auto;
   overflow-y: scroll;
+  overscroll-behavior: contain;
+
 
   .textBold {
     font-weight: 500;
